@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { getDataSource } from "@/database/typeorm/data-source";
+import { getDataSource } from "@/backend/database/typeorm/data-source";
 
 export const runtime = "nodejs";
 
